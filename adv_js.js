@@ -10,6 +10,7 @@ function toggleNav() {
         document.getElementById("mySidebar").style.width = "50px";
         document.getElementById("main").style.marginLeft = "50px";
         truth = true;
+        document.getElementsByClassName("tabs").style.display="none";
     }
   }
   
