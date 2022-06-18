@@ -7,8 +7,8 @@ function toggleNav() {
         truth = false;
     }
     else {
-        document.getElementById("mySidebar").style.width = "0px";
-        document.getElementById("main").style.marginLeft = "0px";
+        document.getElementById("mySidebar").style.width = "50px";
+        document.getElementById("main").style.marginLeft = "50px";
         truth = true;
     }
   }
