@@ -1,5 +1,5 @@
 /* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
-var truth = false;
+var truth = true;
 function toggleNav() {
     if (truth) {
         document.getElementById("mySidebar").style.width = "250px";
