@@ -15,7 +15,10 @@ function toggleNav(open_2) {
     }
 
     else {
+        document.getElementById("mySidebar").style.width = "100px";
+        document.getElementById("main").style.marginLeft = "150px";
         document.getElementsByClassName("tabs").style.display="none";
+        truth = false;
     }
   }
   
