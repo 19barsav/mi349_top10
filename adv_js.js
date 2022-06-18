@@ -4,14 +4,14 @@ function toggleNav() {
     if (truth) {
         document.getElementById("mySidebar").style.width = "250px";
         document.getElementById("main").style.marginLeft = "250px";
-        document.getElementsByClassName("tabs").style.display="block";
         truth = false;
     }
     else {
         document.getElementById("mySidebar").style.width = "100px";
         document.getElementById("main").style.marginLeft = "100px";
-        truth = true;
         document.getElementsByClassName("tabs").style.display="none";
+        truth = true;
+       
     }
   }
   
