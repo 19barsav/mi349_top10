@@ -26,18 +26,6 @@
   .sidenav a:hover {
     color: #f1f1f1;
   }
-
-  /* Active/current link */
-.sidebar a.active {
-  background-color: #04AA6D;
-  color: white;
-}
-
-/* Links on mouse-over */
-.sidebar a:hover:not(.active) {
-  background-color: #555;
-  color: white;
-}
   
   /* Position and style the close button (top right corner) */
   .sidenav .closebtn {
